@@ -1,0 +1,381 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+/*naibit*/
+.blanco{
+	color:white; 
+}
+.caja{
+	background-color: #E6E6E6;
+}
+.ima{
+	height: 254px !important;
+	width: 100%;
+}
+button{
+	padding-bottom: 10px;
+}
+
+/*Blog Item*/
+input{
+    width: 2px;
+}
+.black{
+	background-color: white;
+}
+.top-5{
+	margin-top: 5%;
+}
+.top-3{
+	margin-top: 3%;
+}
+.top-8{
+	margin-top: 8%;
+}
+.top-10{
+	margin-top: 10%;
+}
+.txt-white{
+	color: white;
+}
+.txt-size{
+	font-size: 15px;
+}
+.bg-white{
+	background-color: white;
+	padding: 2%;
+}
+/*FONDO VERDE Y SU CONTENIDO*/
+.blog{
+	background-color: #2ECC71;
+	height: 210px;
+}
+.float-right{
+	float: right;
+}
+a:hover{
+	color: #dddddd;
+	text-decoration: none;
+}
+/*FONDO GRIS Y SU CONTENIDO Primera columna*/
+.bg-gray{
+	background-color: #EBEBEB;
+}
+/*PRIMER CUADRO Y SEGUNDO CUADRO*/
+.img-blog{
+	border-radius: 10px;
+}
+.box-white{
+	background-color: white;
+	border-radius: 10px;
+	height: 520px;
+	padding: 2%;
+}
+.lista{
+	padding: 6px;
+	color: 	#a9a9a9;
+}
+.padding{
+	padding: 8px;
+}
+/*pagination*/
+.pagination-style{
+	background-color: #32465B !important;
+	color: white  !important;
+	border: none !important;
+}
+.pagination-style1{
+	color: #32465B !important;
+	border: none !important;
+}
+/*Segunda columna*/
+.btn-red{
+	background-color: #D9534F;
+	color: white;
+}
+/*LISTA BLOG*/
+.nodeco{
+	list-style: none;
+	margin-left: -30px;
+}
+.txt-black{
+	color: black;
+}
+li>a:hover{
+	color: #D9534F;
+	text-decoration: none;
+}
+/*PAGINA ABOUT US*/
+/*PROGRESS*/
+.progress-whith{
+	height: 30px;
+	background-color: white;
+}
+/*MEMBER*/
+.img-member{
+    border: 5px solid white;
+    border-radius: 100%;
+}
+.btn-radius{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    padding: 3%;
+}
+.btn-color{
+    background-color: #0c9be1 !important;
+    color: white;
+    border: none;
+}
+/*FOOTER*/
+.bg-footer{
+    background-color: #34495E;
+}
+.txt-gray{
+    color: #8b8b8b;
+}
+.bg-footer2{
+	background-color: #2C3E50;
+}
+/*CLASES CLAUDIA*/
+.logo{
+  width: 170px;
+  margin-top: 18px;
+  margin-left: 15px;
+}
+
+.navbar{
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background: #314C5F;
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #213846;
+	border-radius: 5px;
+	padding-bottom: -5px;	
+}
+
+.navbar-inverse .navbar-nav li{
+	margin-right:-20px;
+	margin-left: 17px; 
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+  color: #ffffff;
+  background-color: #213846;
+}
+
+.pd-top15{
+	margin-top: 10px;
+}
+
+.Text-White {
+	color: white;
+}
+
+i:hover,
+i:focus {
+	color: #DEDB32 !important;
+  	text-decoration: none;
+  	background-color: #019C49 !important;
+}
+.Text-White {
+	color: white;
+}
+.DivBack1 {
+	width: 100%;
+	height: 523px;
+}
+.BackIndex1 {
+	background-image: url(../images/slider/bg1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	padding-top: 15%;
+}
+.pager {
+	background-color: #B40404;
+	width: 40px;
+	height: 30px;
+	color: white;
+	text-align: center;
+	border: 1px solid #450E02;
+}
+.previous {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.next {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-left: -4px !important;
+}
+.DivGreen {
+	background-color: #019C49;
+	padding: 2% 0%;
+	margin-top: 86px;
+}
+.DivIcoP2 {
+	float: left;
+	width: 16%;
+	margin-top: 22px !important;
+}
+.IcoP2 {
+	font-size: 50px;
+	color: #003619;
+}
+.TextP2 {
+	float: left;
+	width: 84%;
+}
+
+.BackGray {
+	background-color: #D8D8D8;
+	padding: 5% 0%;
+}
+.ImgPanel3 {
+	width: 100%;
+}
+.BackWhite {
+	background-color: white;
+	padding: 3%;
+}
+
+.BackRed {
+	background-color: #B40404;
+	padding: 5% 0%;
+}
+
+
+.MenuDerecha {
+	float: right;
+	text-decoration: none;
+	padding: 5%;
+	margin-top: 30px;
+}
+.MenuDerecha:hover,
+.MenuDerecha:focus {
+	color: #019C49;
+	background-color: #5B555C;
+	text-decoration: none;
+}
+
+
+body{
+	background: #EEEEEE;
+	height: 70px;
+}
+
+
+.showback {
+    background: #ffffff;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    
+}
+
+.empresario{
+	width: 100%;
+	height: 245px;
+	border-top-right-radius: 5px;
+}
+
+h3{
+	font-weight:500;
+	color:#314C5F;
+	padding-left: 15px;
+}
+
+.person{
+	color: gray;
+	font-size: 16px;
+	padding-left: 15px;
+}
+
+.names{
+	color: gray;
+}
+
+.pdleft15{
+	padding-left: 15px;
+}
+
+.display{
+	display: inline-block;
+}
+
+.Mtop {
+	margin-top: 30px;
+}
+.heightImg {
+	height: 250px;
+}
+/*.......Services.....*/
+.AIcop1 {
+	font-size: 50px;
+	color: #424242;
+}
+.IcoP1:hover,
+.IcoP1:focus {
+	color: #019C49!important;
+  	text-decoration: none;
+  	background-color: #D8D8D8!important;
+}
+´.BlockquoteGray {
+	background-color: #6E6E6E !important;
+}
+
+@media (max-width: 767px) {
+	.DivBack1 {
+		width: 100%;
+		height: 700px;
+}
+	.BackIndex1 {
+		background-size: auto;
+		padding-top: 40%;
+	}
+	.heightImg {
+		height: 140px;
+	}
+	.MenuDerecha {
+		padding: 2%;
+	}
+}
+@media (max-width: 992) {
+	.DivBack1 {
+		width: 100%;
+		height: 900px;
+	}
+	.BackIndex1 {
+		background-size: auto;
+		padding-top: 40%;
+	}
+	.heightImg {
+		height: 200px;
+	}
+	.MenuDerecha {
+		padding: 2%;
+	}
